@@ -19,7 +19,7 @@ resetBtn.addEventListener("click", resetTimer);
 
 function Timer() {
     clearInterval(interval);
-    interval = setInterval(startTimer, 1000);
+    interval = setInterval(startTimer, 10);
 
     startBtn.style.display = "none";
     pauseBtn.style.display = "block";
